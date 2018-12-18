@@ -1,0 +1,135 @@
+{
+    "Copy": "Crafted with 💗 by R6S.Media team. https://r6s.media",
+    "RainbowSix": {
+        "Errors": {
+            "Nickname": "There is an error in your Uplay nickname",
+            "Operator": "Name of used operator is not valid. Valid names are: **{{operatos}}**",
+            "Platform": "Provided platform is not valid. Valid platforms are: **{{platforms}}**",
+            "Season": "Season name is not valid. Valid names are: **{{seasons}}**",
+            "UserNotFound": "User with **{{name}}** on platform **{{platform}}** not found",
+            "ErrorWithData": "There was an error fetching your data. Please contact **{{dev}}**",
+            "ErrorOrNoStats": "There was an error fetching your data, or you do not have any stats yet. Please contact **{{dev}}**"
+        },
+        "TryingToFind": "Trying to find a user with **{{name}}** username.",
+        "OpenOnR6DB": "Open on R6Tab",
+        "HereWhatIFound": "here is what I found for your request:",
+        "Rank": "Rank",
+        "RankMessage": "**Current:** {{current}} \n**Max:** {{max}}",
+        "MMR": "MMR",
+        "MMRMessage": "**Current:** {{current}} \n**Max:** {{max}}",
+        "Skill": "Skill",
+        "SkillMessage": "**Mean:** {{mean}} \n**StDev:** {{stdev}}% \n**Win%:** {{winrate}}%",
+        "GeneralStats": "General statistics",
+        "KDs": "Kills/Deaths",
+        "KDsMessage": "**Kills:** {{kills}} \n**Deaths:** {{deaths}} \n**Assists:** {{assists}} \n**K/D:** {{kd}}",
+        "WinLost": "Wins/Losses",
+        "WinLostMessage": "**Wins:** {{won}} \n**Losses:** {{lost}} \n**Win%:** {{winrate}}% \n**Hours played:** {{timeplayed}}h",
+        "Statistics": "Statistics",
+        "StatisticsRankMessage": "**Wins:** {{wins}} \n**Losses:** {{losses}} \n**Abandons:** {{abandons}}",
+        "StatisticsStatsMessage": "**DBNO:** {{dbno}} \n**Headshots:** {{headshots}} \n**Penetration Kills:** {{penetrations}} \n**Melee Kills:** {{meleekills}} \n**Revives:** {{revives}}",
+        "Shooting": "Shooting",
+        "ShootingMessage": "**Bullets fired:** {{shots}} \n**Bullets hit:** {{hits}} \n**Accuracy:** {{accuracy}}%",
+        "Additional": "Additional",
+        "AdditionalMessage": "**Suicides:** {{suicides}} \n**Barricades Deployed:** {{barricadesDeployed}} \n**Gadgets Destroyed:** {{gadgetsDestroyed}} \n**Blind Kills:** {{blindKills}} \n",
+        "Level": "Level",
+        "LevelMessage": "**Level:** {{level}} \n**Experience:** {{xp}} \n**Lootbox probability:** {{lootbox}}%",
+        "OperatorStats": "Statistic for operator: **{{operator}}**",
+        "OperatorGadget": "**{{operator}}** gadget usage",
+        "Operators": {
+            "bandit": "**Shock wire kills:** {{gadget}}",
+            "smoke": "**Poision gas kills:** {{gadget}}",
+            "jager": "**Gadgets destoryed by active defense:** {{gadget}}",
+            "rook": "**Armor plate taken by teammates:** {{gadget}}",
+            "doc": "**Teammates revived:** {{gadget}}",
+            "pulse": "**Heardbeats spotted:** {{gadget}}",
+            "caveira": "**Successful interrogations performed:** {{gadget}}",
+            "kapkan": "**Entry denial device kills:** {{gadget}}",
+            "valkyrie": "**Black eye cameras deployed:** {{gadget}}",
+            "vigil": "**Drones deceived:** {{gadget}}",
+            "frost": "**Enemies caught in welcome mats:** {{gadget}}",
+            "ela": "**Grzmot mines detonated:** {{gadget}}",
+            "mute": "**Gadget jammed:** {{gadget}}",
+            "echo": "**Enemies Disoriented by yokai:** {{gadget}}",
+            "mira": "**Black mirror deployed:** {{gadget}}",
+            "lesion": "**Enemies poisoned by gu devices:** {{gadget}}",
+            "castle": "**Armor panels deployed:** {{gadget}}",
+            "tachanka": "**Mounted LMG kills:** {{gadget}}",
+            "alibi": "**Enemies tricked by prisma:** {{gadget}}",
+            "maestro": "**Enemies killed by evil eye:** {{gadget}}",
+            "clash": "**Enemies killed by slowed down:** {{gadget}}",
+            "nomad": "**Airjabs detonated:** {{ gadget }}",
+            "ash": "**Destruction by breaching round:** {{gadget}}",
+            "blackbeard": "**Bullets stopped by shield:** {{gadget}}",
+            "thermite": "**Reinforcements breached by EXO-Thermic charge:** {{gadget}}",
+            "hibana": "**X-Kairos pellets detonated:** {{gadget}}",
+            "glaz": "**Sniper Kills:** {{gadget}}",
+            "twitch": "**Gadgets destroyed by shock drone:** {{gadget}}",
+            "fuze": "**Cluster charge kills:** {{gadget}}",
+            "sledge": "**Descturction by breaching hammer:** {{gadget}}",
+            "buck": "**Kills with the skeleton key:** {{gadget}}",
+            "capitao": "**Kills with asphyxiating bolts:** {{gadget}}",
+            "blitz": "**Enemies blinded by flash shield:** {{gadget}}",
+            "jackal": "**Eyenox tracking assist:** {{gadget}}",
+            "iq": "**Gadgets spotted by electronics detector:** {{gadget}}",
+            "thatcher": "**Gadgets destoryed by EMP:** {{gadget}}",
+            "montagne": "**Bullets blocked by extended shield:** {{gadget}}",
+            "finka": "**Adrenal surge bonus:** {{gadget}}",
+            "dokkaebi": "**Camera hacks:** {{gadget}}",
+            "zofia": "**Concussion grenades detonated:** {{gadget}}",
+            "ying": "**Candela devices detonated:** {{gadget}}",
+            "lion": "**Enemies detected by EE-One-D:** {{gadget}}",
+            "maverick": "**Torch breaches:** {{gadget}}",
+            "kaid": "**Hatches electrified:** {{gadget}}"
+        },
+        "Register": {
+            "Instructions": "Hi! \n\nTo approve that this is uplay you own - you need to set your **Uplay** avatar on this, witch contains QR code. \n\nAfter that just press `✅` under the bot's message in the guild.",
+            "AlreadyRegistered": "Seems that you are already registered."
+        }
+    },
+    "Help": {
+        "Errors": {
+            "Commands": "The selected command is not valid. Valid commands are: **{{commands}}**"
+        },
+        "Commands": "Commands",
+        "General": {
+            "Description": "Welcome to **Black6 Bot** help \n\nDefault prefix is: `!` \nServer prefix is: `{{serverPrefix}}` \n\nTo get help info about module, use: `help [Module]` where `[Module]` is a valid module name. \nTo use a module, simply call `[Module] [Module command]` where `[Module]` is a valid module name, and `[Module command]` is a valid module command, to see a list of valid module commands, call module help. To call help for module - use `help [Module]` where `[Module]` is a valid module name.\n\n Valid modules are: **{{modules}}**\n\n**Remember:** If you have changed bot prefix for your server - all new commands should be called with the new prefix.   ",
+            "Modules": "Modules",
+            "ModulesMessage": "$t(Help.General.R6)",
+            "ModulesAdminMessage": "$t(Help.General.R6)\n$t(Help.General.Settings)",
+            "R6": "`r6` ⇤ A Rainbow Six: Siege module, that allowes you to get ranked, casual, general and operator statistics.",
+            "Settings": "`set`  ⇤ A module to manage your bot server settings. It allowes you to set language used by bot on your server, or change the prefix for bot commands."
+        },
+        "R6": {
+            "Description": "Valid operators are: **{{operators}}** \n\nValid platforms are: **{{platforms}}** \n\n",
+            "Commands": "$t(Help.R6.Rank) \n\n$t(Help.R6.Stats) \n\n$t(Help.R6.Operator) \n\n$t(Help.R6.Reg)",
+            "Rank": "`rank [Uplay] [platform]` ⇤ get users rank by a uplay nickname (if not set - try to look up using discord nickname) and platform.",
+            "Stats": "`stats [Uplay] [platform]` ⇤ get user stats by a uplay nickname (if not set - try to look up using discord nickname) and platform.",
+            "Operator": "`operator ![Operator] [Uplay] [platform]` ⇤ get operator statistic by a uplay nickname (if not set - try to look up using discrod nickname) and platform",
+            "Reg": "`reg [Uplay]` ⇤ allows you to register into the bot and do not use your Uplay nickname into bot commands in future."
+        },
+        "Settings": {
+            "Description": "Valid languages codes are: **{{langs}}**",
+            "Index": "`lang [Language Code]` ⇤ sets the used by bot language for your server. \n\n`prefix [Some Prefix as plain string]` ⇤ sets the used prefix to call the bot on your server.",
+            "Language": "To change a language in bot for your server, use \n`set lang [Language Code]` \nwith your prefix. *(Default: !)*",
+            "Prefix": "To changle the prefix in the bot for you server, use \n`set prefix [Some prefix as plaing string]` \nwith your actual prefix. *(Default: !)*"
+        }
+    },
+    "Settings": {
+        "Errors": {
+            "Languages": "Given language code is not valid! Valid codes are: **{{ languages }}**. \n\nIf you do not see your language code - it may be not supported yet. If you want to contribute to the bot - DM <@254766810296090626>",
+            "NoAccess": "There are not access to that action.",
+            "NoViewAccess": "There are not access to view that information.",
+            "Prefix": "Given prefix contains erros. The prefix should be string."
+        },
+        "Success": {
+            "Language": "Language code was successfully updated for your server. The new language code is: **{{language}}**",
+            "Prefix": "Prefix was successfully updated for you server. New prefix is: **{{prefix}}**"
+        }
+    },
+    "Invite": {
+        "Message": "Hi! Wanna get me on your server? No problem! \n\n But you shall be an admin or owner of the server!\n\n You are? Okey, here is the link: {{- link }} "
+    },
+    "Init": {
+        "Message": "Welcome! I am very hapy to be now a part of your server bots :D \n\n Lets get know each other. To get more help use `{{ command }}` command on your server. If you have any questions, feel free to conact {{- dev }}"
+    }
+}

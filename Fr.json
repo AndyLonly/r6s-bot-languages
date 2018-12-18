@@ -1,0 +1,141 @@
+{
+    "Copy": "Fait avec 💗 par R6.Media team. https://r6s.media",
+    "RainbowSix": {
+        "Errors": {
+            "Nickname": "Il y a une erreur avec votre pseudo Uplay.",
+            "Operator": "Le nom de l'opérateur utilisé n'est pas valide. Les noms valides sont: **{{operatos}}**",
+            "Platform": "La plateforme utilisée n'est pas valide. Les plateformes valides sont: **{{platforms}}**",
+            "Season": "Le nom de la saison n'est pas valide. Les saisons valides sont:           **{{seasons}}**",
+            "UserNotFound": "L'utilisateur **{{name}}** sur la plateforme **{{platform}}** n'a pas été trouvé.",
+            "ErrorWithData": "Une erreur s'est produite lors de la récupération de vos données. Veuillez contactez **{{dev}}**",
+            "ErrorOrNoStats": "Une erreur s'est produite lors de la récupération de vos données, ou vous en possédez aucune. Veuillez contactez **{{dev}}**"
+        },
+        "TryingToFind": "Nous essayons de trouver l'utilisateur **{{name}}**",
+        "OpenOnR6DB": "Trouver sur R6Tab",
+        "HereWhatIFound": "Voici ce que j'ai trouvé pour votre demande:",
+        "Rank": "Rang",
+        "RankMessage": "**Actuel:** {{current}}\n**Maximum:** {{max}}",
+        "MMR": "MMR",
+        "MMRMessage": "**Actuel:** {{current}}\n**Maximum:** {{max}}",
+        "Skill": "Compétence",
+        "SkillMessage": "**Valeur** {{mean:}}\n**StDev:** {{stdev}}%\n**Taux de victoire%:** {{winrate}}%",
+        "GeneralStats": "Statistique général",
+        "KDs": "Tuer/Mort",
+        "KDsMessage": "**Tuer:** {{kills}}\n**Morts:** {{deaths}}\n**Assistances:** {{assists}}\n**K/D:** {{kd}}",
+        "WinLost": "Victoires/Défaites ",
+        "WinLostMessage": "**Victoires:** {{won}}\n**Défaites:** {{lost}}\n**Victoires%:** {{winrate}}%\n**Heures jouer:** {{timeplayed}}h",
+        "Statistics": "Statistiques",
+        "StatisticsRankMessage": "**Victoires:** {{wins}}\n**Défaites:** {{losses}}\n**Abandons:** {{abandons}}",
+        "StatisticsStatsMessage": "**DBNO:** {{dbno}} \n**Tir dans la tête:** {{headshots}} \n**Meurtre par pénétrations:** {{penetrations}} \n**Meurtre au corps a corps:** {{meleekills}} \n**Revives:** {{revives}}",
+        "Shooting": "Tir",
+        "ShootingMessage": "**Balle tirer:** {{shots}} \n**Balle toucher:** {{hits}} \n**Précision:** {{accuracy}}%",
+        "Additional": "Additionnel",
+        "AdditionalMessage": "**Suicides:** {{suicides}}\n**Barricades Déployer:** {{barricadesDeployed}}\n**Gadgets Détruits:** {{gadgetsDestroyed}}\n**Meurtres à l'aveugle:** {{blindKills}}\n",
+        "Level": "Niveau",
+        "LevelMessage": "**Niveau:** {{level}} \n**Expérience:** {{xp}} \n**Probabilité du coffre à butin:** {{lootbox}}%",
+        "OperatorStats": "Statistique de l’opérateur: **{{operator}}**",
+        "OperatorGadget": "**{{operator}}** utilisation du gadget",
+        "Operators": {
+            "bandit": "**Tuer avec le fil de choc:** {{gadget}}",
+            "smoke": "**Tuer avec gaz toxique:** {{gadget}}",
+            "jager": "**Gadgets détruits par la défense active:** {{gadget}}",
+            "rook": "**Plaque de blindage prise par ses coéquipiers:** {{gadget}}",
+            "doc": "**Coéquipiers réanimer:** {{gadget}}",
+            "pulse": "**Battement de cœur repéré:** {{gadget}}",
+            "caveira": "**Interrogatoires réussis effectués:** {{gadget}}",
+            "kapkan": "**Meurtre grâce au dispositif de blocage:** {{gadget}}",
+            "valkyrie": "**Caméra Black eye déployer:** {{gadget}}",
+            "vigil": "**Drones trompés:** {{gadget}}",
+            "frost": "**Ennemis pris dans des pièges a loups:** {{gadget}}",
+            "ela": "**Mine grzmot déclenchée:** {{gadget}}",
+            "mute": "**Gadget coincés:** {{gadget}}",
+            "echo": "**Ennemies Désorientée par yokai:** {{gadget}}",
+            "mira": "**Miroir sans tain déployée:** {{gadget}}",
+            "lesion": "**Ennemies empoisonnée par un dispositif gu:** {{gadget}}",
+            "castle": "**Panneaux d'armure déployés:** {{gadget}}",
+            "tachanka": "**Personne tuer avec la mitrailleuse de Tachanka:** {{gadget}}",
+            "alibi": "**Ennemis piégés par le prisme de Alibi:** {{gadget}}",
+            "maestro": "**Ennemies tuer par evil eye:** {{gadget}}",
+            "clash": "**Ennemies tuer par ralenti:** {{gadget}}",
+            "ash": "**Destruction par brèche:** {{gadget}}",
+            "blackbeard": "**Balles arrêtées par bouclier:** {{gadget}}",
+            "thermite": "**Renforcements brisé par une charge EXO-Thermique :** {{gadget}}",
+            "hibana": "**Plomb X-Kairos activé:** {{gadget}}",
+            "glaz": "**Meurtre au sniper:** {{gadget}}",
+            "twitch": "**Gadgets détruit par drone à électrocution:** {{gadget}}",
+            "fuze": "**Meurtre avec charge à sous-munitions:** {{gadget}}",
+            "sledge": "**Destruction par Masse tactique:** {{gadget}}",
+            "buck": "**Meurtre avec Outil de perçage efficace par Buck:** {{gadget}}",
+            "capitao": "**Meurtre par carreaux asphyxiant de Capitão:** {{gadget}}",
+            "blitz": "**Ennemies aveugler par le bouclier de Blitz:** {{gadget}}",
+            "jackal": "**Assistance du traçage Eyenox:** {{gadget}}",
+            "iq": "**Gadgets trouver par un détecteur électronique:** {{gadget}}",
+            "thatcher": "**Gadgets détruit par une grenade IEM:** {{gadget}}",
+            "montagne": "**Balle bloquer par un bouclier extensible :** {{gadget}}",
+            "finka": "**Bonus d'injection de nanobots par Finka:** {{gadget}}",
+            "dokkaebi": "**Camera piratée:** {{gadget}}",
+            "zofia": "**Grenades à concussion déclencher:** {{gadget}}",
+            "ying": "**Dispositif Candela activé :** {{gadget}}",
+            "lion": "**Ennemies détecté par EE-One-D par Lion:** {{gadget}}",
+            "maverick": "**Balles arrêté par le bouclier CCE :** {{gadget}}"
+        },
+        "Register": {
+            "Instructions": "Salut! \n\nPour approuver que ce Uplay est le votre - vous devez définir votre avatar **Uplay** sur celui-ci, qui contient le code QR.\nAprès cela, appuyez simplement sur «✅» sous le message du bot.",
+            "AlreadyRegistered": "On dirait que vous êtes déjà inscrit."
+        }
+    },
+    "Help": {
+        "Errors": {
+            "Commands": "La commande sélectionnée n'est pas valide. Les commandes valides sont: **{{commands}}**"
+        },
+        "Commands": "Commandes",
+        "General": {
+            "Description": "Bienvenue dans l'aide du **Black6 Bot** \n\nLe préfixe par défaut est: `!` \nLe préfixe du serveur est: `{{serverPrefix}}` \n\nPour obtenir des informations d'aide sur le module utilisez: `help [Module]` où `[Module]` est un nom de module valide. \nPour utiliser un module, appelez simplement `[Module] [Module command]` où `[Module]` est un nom de module valide et`[Module command]` est une commande de module valide pour afficher une liste des commandes de module valides. appeler le module d'aide. Pour avoir de l'aide pour un module - utilisez `help  [Module]` où `[Module]` est un nom de module valide.\n\n\n\n Les modules valides sont: **{{modules}}**\n\n** N'oubliez pas: ** Si vous avez changé le préfixe du bot pour votre serveur, toutes les nouvelles commandes doivent être appelées avec le nouveau préfixe.",
+            "Modules": "Modules",
+            "ModulesMessage": "$t(Help.General.R6)",
+            "ModulesAdminMessage": "$t(Help.General.R6)\n$t(Help.General.Settings)",
+            "R6": "`r6` ⇤ Un module Rainbow Six: Siege, Cela vous permet d’obtenir des statistiques classées, occasionnelles, générales et par opérateur.",
+            "Settings": "`set` ⇤ Un module pour gérer les paramètres de votre serveur bot. Il vous permet de définir la langue utilisée par bot sur votre serveur ou de changer le préfixe des commandes de bot."
+        },
+        "R6": {
+            "Description": "Les opérateurs valides sont: **{{operators}}**\n\nLes plates-formes valides sont: **{{platforms}}**\n\n",
+            "Commands": "$t(Help.R6.Rank) \n\n$t(Help.R6.Stats) \n\n$t(Help.R6.Operator) \n\n$t(Help.R6.Reg)",
+            "Rank": "`rank [Uplay] [platform]` ⇤ Obtenez le classement des utilisateurs par pseudonyme uplay (si non défini - essayez de chercher en utilisant pseudonyme discord) et par plateforme.",
+            "Stats": "`stats [Uplay] [platform]` ⇤ obtenir les statistiques des utilisateurs par un pseudo uplay (si non défini - essayez de chercher en utilisant un pseudonyme discord) et par la plateforme",
+            "Operator": "operator ![Operator] [Uplay] [platform]` ⇤ récupère les statistiques d'opérateur par un pseudo uplay (si non défini - essayez de chercher en utilisant un pseudo discord) et la plateforme.",
+            "Reg": "`reg [Uplay]` ⇤ vous permet de vous inscrire au bot et de ne pas utiliser votre pseudo Uplay dans les commandes du bot à l'avenir"
+        },
+        "Settings": {
+            "Description": "Les langages valides sont: **{{langs}}**",
+            "Index": "`lang [Language Code]` ⇤ définit la langue utilisée par le bot pour votre serveur.\n\n`prefix [Certains préfixes comme chaîne simple]` ⇤ définit le préfixe utilisé pour appeler le bot sur votre serveur.",
+            "Language": "Pour changer une langue dans le bot pour votre serveur, utilisez\n`set lang [Langage]`\navec votre préfixe. *(Défaut: !)*",
+            "Prefix": "Pour changer le préfixe dans le bot pour votre serveur, utilisez\n`set prefix [Quelques préfixes comme chaîne simple]`\navec votre préfixe actuel. *(Défaut: !)*"
+        }
+    },
+    "Settings": {
+        "Errors": {
+            "Languages": "La langue donné n'est pas valide! Les langues valides sont: **{{languages}}**.\n\nSi vous ne voyez pas votre langue, il ne sera peut-être pas encore disponible. Si vous voulez contribuer au bot  - DM <@254766810296090626>",
+            "NoAccess": "Il n'y a pas d'accès à cette action.",
+            "NoViewAccess": "Vous n'avez pas l'accès pour voir cette information.",
+            "Prefix": "Le préfixe donné contient des erreurs. Le préfixe devrait être simple."
+        },
+        "Success": {
+            "Language": "La langue a été mise à jour avec succès pour votre serveur. La langue actuel est: **{{language}}**",
+            "Prefix": "Le préfixe a été mis à jour avec succès pour votre serveur. Le nouveau préfixe est: **{{prefix}}**"
+        }
+    },
+    "Modules": {
+        "Errors": {
+            "IsNotEnabled": "Le module **{{ module }}** n'a pas été activé.",
+            "IsNotDisabled": "Vous ne pouvez pas désactiver **{{ module }}** Le module. Une erreur s'est produite ou le module est marqué en tant que système.",
+            "Modules": "Ce module n'est pas disponible. Les modules disponibles sont: **{{modules}}**",
+            "NoAccess": "Vous n'êtes pas autorisé à effectuer cette action. Vous devez être propriétaire ou disposer des droits d'administrateur pour réaliser cette commande.",
+            "AlreadyEnabled": "Le **{{module}}** est **déjà activé**",
+            "YetNotEnabled": "Le module **{{module}}** n'est **pas activé**"
+        },
+        "Success": {
+            "Enabled": "Le module **{{module}}** a bien été **activé**",
+            "Disabled": "Le module **{{module}}** a bien été **désactivé**"
+        }
+    }
+}

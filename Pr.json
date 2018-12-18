@@ -1,0 +1,135 @@
+{
+    "Copy": "Feito com 💗 por R6S.Media team. https://r6s.media",
+    "RainbowSix": {
+        "Errors": {
+            "Nickname": "Há um erro no seu nick da Uplay",
+            "Operator": "Nome do operador inválido. Operadores disponíveis: **{{operatos}}**",
+            "Platform": "A plataforma informada é inválida. Plataformas disponíveis: **{{platforms}}**",
+            "Season": "Nome da season inválido. Seasons disponíveis: **{{seasons}}**",
+            "UserNotFound": "Usuário **{{name}}** na plataforma **{{platform}}** não encontrado.",
+            "ErrorWithData": "Houve um erro ao buscar seus dados. Por favor, contate **{{dev}}**",
+            "ErrorOrNoStats": "Houve um erro ao buscar seus dados, ou você ainda não tem informações disponíveis. Por favor, contate **{{dev}}**"
+        },
+        "TryingToFind": "Tentando encontrar um usuário com o nick **{{name}}**.",
+        "OpenOnR6DB": "Abrir em R6Tab",
+        "HereWhatIFound": "Aqui está o que eu achei:",
+        "Rank": "Rank",
+        "RankMessage": "**Atual:** {{current}} \n**Max:** {{max}}",
+        "MMR": "MMR",
+        "MMRMessage": "**Atual:** {{current}} \n**Max:** {{max}}",
+        "Skill": "Skill",
+        "SkillMessage": "**Mean:** {{mean}} \n**StDev:** {{stdev}}% \n**Win%:** {{winrate}}%",
+        "GeneralStats": "Estatísticas gerais:",
+        "KDs": "Eliminações/Mortes",
+        "KDsMessage": "**Eliminações:** {{kills}} \n**Mortes:** {{deaths}} \n**Assistências:** {{assists}} \n**K/D:** {{kd}}",
+        "WinLost": "Vitórias/Derrotas",
+        "WinLostMessage": "**Vitórias:** {{won}} \n**Derrotas:** {{lost}} \n**Vitórias%:** {{winrate}}% \n**Horas jogadas:** {{timeplayed}}h",
+        "Statistics": "Estatísticas",
+        "StatisticsRankMessage": "**Vitórias:** {{wins}} \n**Derrotas:** {{losses}} \n**Abandonos:** {{abandons}}",
+        "StatisticsStatsMessage": "**DBNO:** {{dbno}} \n**Headshots:** {{headshots}} \n**Eliminações por perfuração:** {{penetrations}} \n**Eliminações corpo a corpo:** {{meleekills}} \n**Reanimações:** {{revives}}",
+        "Shooting": "Disparos",
+        "ShootingMessage": "**Disparos efetuados:** {{shots}} \n**Disparos acertados:** {{hits}} \n**Precisão:** {{accuracy}}%",
+        "Additional": "Informações Adicionais",
+        "AdditionalMessage": "**Suicídios:** {{suicides}} \n**Barricadas Armadas:** {{barricadesDeployed}} \n**Gadgets Destruídos:** {{gadgetsDestroyed}} \n**Eliminações cegas:** {{blindKills}} \n",
+        "Level": "Level",
+        "LevelMessage": "**Level:** {{level}} \n**Experiência:** {{xp}} \n**Probabilidade do Lootbox:** {{lootbox}}%",
+        "OperatorStats": "Estatísticas para o operador: **{{operator}}**",
+        "OperatorGadget": "**{{operator}}** uso de gadget",
+        "Operators": {
+            "bandit": "**Eliminações com o fio de choque:** {{gadget}}",
+            "smoke": "**Eliminações com gás tóxico:** {{gadget}}",
+            "jager": "**Dispositivos destruídos pela defesa ativa:** {{gadget}}",
+            "rook": "**Suprimentos de blindagem pegos pelos aliados:** {{gadget}}",
+            "doc": "**Aliados revividos:** {{gadget}}",
+            "pulse": "**Batimentos cardíacos detectados:** {{gadget}}",
+            "caveira": "**Interrogatórios completados:** {{gadget}}",
+            "kapkan": "**Eliminações com o bloqueador de entrada:** {{gadget}}",
+            "valkyrie": "**Câmeras Black Eye instaladas:** {{gadget}}",
+            "vigil": "**Drones despistados:** {{gadget}}",
+            "frost": "**Inimigos pegos pelo capacho:** {{gadget}}",
+            "ela": "**Grzmot mines detonadas:** {{gadget}}",
+            "mute": "**Gadget danificado:** {{gadget}}",
+            "echo": "**Enemies disorientados pelo Yokai:** {{gadget}}",
+            "mira": "**Espelho negro instalado:** {{gadget}}",
+            "lesion": "**Inigimos envenenados pelo dispositivo Gu:** {{gadget}}",
+            "castle": "**Painéis protetores montados:** {{gadget}}",
+            "tachanka": "**Eliminações pela metralhadora fixa:** {{gadget}}",
+            "alibi": "**Inimigos emboscados com Prisma:** {{gadget}}",
+            "maestro": "**Inimigos eliminados com Evil Eye:** {{gadget}}",
+            "clash": "**Inimigos eliminados sob redução de velocidade:** {{gadget}}",
+            "nomad": "**Airjabs detonados:** {{ gadget }}",
+            "ash": "**Destruição pela munição explosiva:** {{gadget}}",
+            "blackbeard": "**Disparos contidos pelo escudo:** {{gadget}}",
+            "thermite": "**Reforços de parede destruídos com carga exotérmica:** {{gadget}}",
+            "hibana": "**Cargas X-Kairos detonadas:** {{gadget}}",
+            "glaz": "**Eliminações Sniper:** {{gadget}}",
+            "twitch": "**Gadgets destruídos pelo drone de choque:** {{gadget}}",
+            "fuze": "**Eliminações com o perfurador:** {{gadget}}",
+            "sledge": "**Destruição pela marreta de demolição:** {{gadget}}",
+            "buck": "**Eliminações com a Skeleton Key:** {{gadget}}",
+            "capitao": "**Eliminações com flechas asfixiantes:** {{gadget}}",
+            "blitz": "**Inimigos cegados pelo escudo flash:** {{gadget}}",
+            "jackal": "**Assistências com rastreamento Eyenox:** {{gadget}}",
+            "iq": "**Gadgets detectados pelo detector de eletrônicos:** {{gadget}}",
+            "thatcher": "**Gadgets destruídos por pulso eletromagnético:** {{gadget}}",
+            "montagne": "**Disparos bloqueados pelo escudo extensível:** {{gadget}}",
+            "finka": "**Bônus de pico de adrenalina:** {{gadget}}",
+            "dokkaebi": "**Câmeras hackeadas:** {{gadget}}",
+            "zofia": "**Granadas de concussão detonadas:** {{gadget}}",
+            "ying": "**Dispositivos Candela detonados:** {{gadget}}",
+            "lion": "**Inimigos detectados por EE-One-D:** {{gadget}}",
+            "maverick": "**Aberturas com maçarico:** {{gadget}}",
+            "kaid": "**Alçapões eletrificados:** {{gadget}}"
+        },
+        "Register": {
+            "Instructions": "Olá! \n\nPara provar que esta é a sua Uplay você precisa trocar o seu avatar da **Uplay** para esta imagem, que contém um QR code. \n\nApós isso, pressione o botão `✅` abaixo da mensagem do bot.",
+            "AlreadyRegistered": "Parece que você ja está registrado."
+        }
+    },
+    "Help": {
+        "Errors": {
+            "Commands": "Comando inválido. Comandos disponíveis: **{{commands}}**"
+        },
+        "Commands": "Comandos",
+        "General": {
+            "Description": "Bem-Vindo a ajuda do **Black6 Bot** \n\nPrefixo padrão: `!` \nPrefixo neste servidor: `{{serverPrefix}}` \n\nPara informações sobre os módulos, use: `help [Modulo]` onde `[Modulo]` é um módulo válido. \nPara usar um módulo, use `[Modulo] [Comando do módulo]` onde `[Modulo]` é um nome de módulo válido, e `[Comando do módulo]` é um comando válido desse módulo, para ver a lista de módulos disponíveis, utilize o módulo de ajuda. Para ajuda sobre um módulo específico - use `help [Modulo]` onde `[Modulo]` é um módulo válido.\n\n Módulos válidos: **{{modules}}**\n\n**Lembrete:** se você alterou o prefixo do bot para o servidor todos os comandos devem ser utilizados com o novo prefixo.",
+            "Modules": "Módulos",
+            "ModulesMessage": "$t(Help.General.R6)",
+            "ModulesAdminMessage": "$t(Help.General.R6)\n$t(Help.General.Settings)",
+            "R6": "`r6` ⇤ Módulo do Rainbow Six: Siege que permite o usuário obter informações sobre ranks, partidas, operadores e informações em geral.",
+            "Settings": "`set`  ⇤ Módulo para administrar as preferências do bot. Esse módulo permite a alteração da língua utilizada pelo bot no servidor ou alterar o prefixo utilizado nos comandos."
+        },
+        "R6": {
+            "Description": "Operadores válidos: **{{operators}}** \n\nPlataformas válidas: **{{platforms}}** \n\n",
+            "Commands": "$t(Help.R6.Rank) \n\n$t(Help.R6.Stats) \n\n$t(Help.R6.Operator) \n\n$t(Help.R6.Reg)",
+            "Rank": "`rank [Uplay] [platform]` ⇤ retorna o rank de um usuário de acordo com o nick da Uplay (caso não funcione, tente buscar utilizando o seu nick do Discord) e a plataforma informada.",
+            "Stats": "`stats [Uplay] [platform]` ⇤ retorna as estatísticas de um usuário de acordo com o nick da Uplay (caso não funcione, tente buscar utilizando o seu nick do Discord) e a plataforma informada.",
+            "Operator": "`operator [Operador] [Uplay] [plataforma]` ⇤ retorna as estatíscas de um operador utilizado pelo usuário de acordo com o nick da Uplay (caso não funcione, tente buscar utilizando o seu nick do Discord) e a plataforma informada.",
+            "Reg": "`reg [Uplay]` ⇤ permite o usuário registrar-se no bot para que o bot não tenha acesso as informações no futuro."
+        },
+        "Settings": {
+            "Description": "Idiomas disponíveis: **{{langs}}**",
+            "Index": "`lang [Language Code]` ⇤ determina o idioma utilizado pelo bot no servidor. \n\n`prefix [Some Prefix as plain string]` ⇤ modifica o prefixo utilizado pelo bot no servidor.",
+            "Language": "Para mudar o idioma utilizado pelo bot no servidor utilize \n`set lang [Language Code]` \ncom o seu prefixo. *(Default: !)*",
+            "Prefix": "Para mudar o prefico utilizado pelo bot no servidor utilize \n`set prefix [Prefixo escolhido]` \ncom o seu prefixo atual. *(Default: !)*"
+        }
+    },
+    "Settings": {
+        "Errors": {
+            "Languages": "O código de idiona informado é inválido! Códigos de idioma disponíveis: **{{ languages }}**. \n\nCaso você não encontre seu idioma, talvez ele ainda não esteja disponível. Caso queira contribuir - DM <@254766810296090626>",
+            "NoAccess": "Você não tem acesso para executar esta ação.",
+            "NoViewAccess": "Você não tem acesso para ver esta informação.",
+            "Prefix": "O prefixo informado é inválido. Utilize somente letras e símbolos (string)."
+        },
+        "Success": {
+            "Language": "Idioma alterado com sucesso!. O novo idioma é: **{{language}}**",
+            "Prefix": "Prefixo alterado com sucesso!. O novo prefico é: **{{prefix}}**"
+        }
+    },
+    "Invite": {
+        "Message": "Olá! Quer me convidar para o seu servidor? Sem problemas! \n\n Porém você deve ser dono ou administrador do servidor!\n\n Você é um deles? Ok, aqui está o link: {{- link }} "
+    },
+    "Init": {
+        "Message": "Bem-Vindo! Estou muito feliz por fazer parte do seu servidor :D \n\n Vamos nos conhecer. Para mais informções utilize `{{ command }}` comando no seu servidor. Caso tenha alguma dúvida sinta-se livre para entrar em contato {{- dev }}"
+    }
+}
