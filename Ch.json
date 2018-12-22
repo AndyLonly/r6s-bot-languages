@@ -78,11 +78,12 @@
             "zofia": "**震荡榴弹引爆数:** {{gadget}}",
             "ying": "**烛光引爆次数:** {{gadget}}",
             "lion": "**EE-One-D无人机标记敌人次数:** {{gadget}}",
-            "maverick": "**CCE 护盾阻拦数:** {{gadget}}",
+            "maverick": "**火炬切割次数:** {{gadget}}",
             "nomad": "**气震锤引爆次数:** {{ gadget }}"
         },
         "Register": {
-            "Instructions": "Hi! \n\n为了认证该Uplay账号属于你 - 您需要设置您的 **Uplay** 头像为该二维码. \n\n之后只需要按下Bot信息里的`✅` 即可."
+            "Instructions": "Hi! \n\n为了认证该Uplay账号属于您 - 您需要设置您的 **Uplay** 头像为该二维码. \n\n之后只需要按下Bot信息里的`✅` 即可."
+            "AlreadyRegistered": "您似乎已经注册了."
         }
     },
     "Help": {
