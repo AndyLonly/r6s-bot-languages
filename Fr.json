@@ -10,6 +10,7 @@
             "ErrorWithData": "Une erreur s'est produite lors de la récupération de vos données. Veuillez contactez **{{dev}}**",
             "ErrorOrNoStats": "Une erreur s'est produite lors de la récupération de vos données, ou vous en possédez aucune. Veuillez contactez **{{dev}}**"
         },
+        "InformationForSeason": "Informations de saison: **{{season}}**",
         "TryingToFind": "Nous essayons de trouver l'utilisateur **{{name}}**",
         "OpenOnR6DB": "Trouver sur R6Tab",
         "HereWhatIFound": "Voici ce que j'ai trouvé pour votre demande:",

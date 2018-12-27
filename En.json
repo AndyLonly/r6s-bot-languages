@@ -10,6 +10,7 @@
             "ErrorWithData": "There was an error fetching your data. Please contact **{{dev}}**",
             "ErrorOrNoStats": "There was an error fetching your data, or you do not have any stats yet. Please contact **{{dev}}**"
         },
+        "InformationForSeason": "Information for season: **{{season}}**",
         "TryingToFind": "Trying to find a user with **{{name}}** username.",
         "OpenOnR6DB": "Open on R6Tab",
         "HereWhatIFound": "here is what I found for your request:",
