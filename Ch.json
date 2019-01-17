@@ -10,6 +10,7 @@
             "ErrorWithData": "获取用户数据失败，请联系开发者**{{dev}}**",
             "ErrorOrNoStats": "获取用户数据失败，或者用户目前没有数据，请联系开发者**{{dev}}**"
         },
+        "InformationForSeason": "赛季信息: **{{season}}**",
         "TryingToFind": "尝试搜寻用户名为**{{name}}**的用户.",
         "OpenOnR6DB": "在R6Tab中打开",
         "HereWhatIFound": "这是我找到您所请求的数据",
